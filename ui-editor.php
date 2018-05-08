@@ -302,7 +302,7 @@ while($row = sqlFetchArray($res)){
         </style>
         </head>
         <body>
-            <form method="post" action="ui-editor2.php">
+            <form method="post" action="ui-editor.php">
                     <div class="container"><h2>Buttons Style Editor</h2></div>
                     <div class="container">
                         <div class="tab" id='top'>
