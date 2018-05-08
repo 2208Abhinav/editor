@@ -7,7 +7,6 @@ require_once("$srcdir/patient.inc");
 $user = $_SESSION['authId'];
 if(isset($_POST['pos-bt']))
 {
-    echo "1<br>";
     $value = $_POST['pos-bt'];
     sqlStatement("UPDATE user_settings SET setting_value='$value' WHERE setting_label='pos-bt' AND setting_user='$user'");
 }
